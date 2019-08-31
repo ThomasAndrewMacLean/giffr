@@ -1,0 +1,21 @@
+{
+  "name": "giffr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "es-dev-server",
+    "postinstall": "pika-web"
+  },
+  "keywords": [],
+  "author": "Thomas MacLean <hello@thomasmaclean.be> (https://thomasmaclean.be)",
+  "license": "MIT",
+  "dependencies": {
+    "@vaadin/router": "^1.4.0",
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.5.3",
+    "es-dev-server": "^1.17.1"
+  }
+}
